@@ -560,7 +560,7 @@ msgid ""
 "View menu, you can choose the register style Auto-Split Ledger or "
 "Transaction Journal."
 msgstr ""
-"To enter multiple-split transactions such as a pay slip with multiple "
+"To enter multiple-split transactions such as a payslip with multiple "
 "deductions, click the Split button in the tool bar. Alternatively, in the "
 "View menu, you can choose the register style Auto-Split Ledger or "
 "Transaction Journal."
@@ -9431,7 +9431,7 @@ msgstr "Rebate"
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2914
 #: gnucash/register/ledger-core/split-register.c:2607
 msgid "Paycheck"
-msgstr "Pay slip"
+msgstr "Payslip"
 
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2927
 #: gnucash/import-export/qif-imp/qif-dialog-utils.scm:109
