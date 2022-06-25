@@ -778,10 +778,12 @@ msgid ""
 msgid_plural ""
 "The earliest transaction date found in this book is %s. Based on the "
 "selection made above, this book will be split into %d books."
-msgstr_plural ""
+msgstr[0] ""
+"The earliest transaction date found in this book is %s. Based on the "
+"selection made above, this book will be split into %d book."
+msgstr[1] ""
 "The earliest transaction date found in this book is %s. Based on the "
 "selection made above, this book will be split into %d books."
-msgstr
 
 #. Translators: Run the assistant in your language to see GTK's translation of the button labels.
 #: gnucash/gnome/assistant-acct-period.c:371
@@ -2171,11 +2173,14 @@ msgid_plural ""
 "There are %d invalid mappings,\n"
 "\n"
 "Would you like to remove them now?"
-msgstr_plural ""
+msgstr[0] ""
+"There is %d invalid mapping,\n"
+"\n"
+"Would you like to remove it now?"
+msgstr[1] ""
 "There are %d invalid mappings,\n"
 "\n"
 "Would you like to remove them now?"
-msgstr
 
 #: gnucash/gnome/dialog-imap-editor.c:368
 #, c-format
@@ -2597,8 +2602,8 @@ msgstr "Find Invoice"
 #, c-format
 msgid "The following vendor document is due:"
 msgid_plural "The following %d vendor documents are due:"
-msgstr_plural "The following %d vendor documents are due:"
-msgstr
+msgstr[0] "The following vendor document is due:"
+msgstr[1] "The following %d vendor documents are due:"
 
 #: gnucash/gnome/dialog-invoice.c:3725
 msgid "Due Bills Reminder"
@@ -2610,8 +2615,8 @@ msgstr "Due Bills Reminder"
 #, c-format
 msgid "The following customer document is due:"
 msgid_plural "The following %d customer documents are due:"
-msgstr_plural "The following %d customer documents are due:"
-msgstr
+msgstr[0] "The following customer document is due:"
+msgstr[1] "The following %d customer documents are due:"
 
 #: gnucash/gnome/dialog-invoice.c:3736
 msgid "Due Invoices Reminder"
@@ -2933,8 +2938,8 @@ msgstr ""
 #, c-format
 msgid "Are you sure you want to delete the selected price?"
 msgid_plural "Are you sure you want to delete the %d selected prices?"
-msgstr_plural "Are you sure you want to delete the %d selected prices?"
-msgstr
+msgstr[0] "Are you sure you want to delete the selected price?"
+msgstr[1] "Are you sure you want to delete the %d selected prices?"
 
 #: gnucash/gnome/dialog-price-edit-db.c:202
 msgid "Delete prices?"
@@ -3302,10 +3307,12 @@ msgid ""
 msgid_plural ""
 "There are no Scheduled Transactions to be entered at this time. (%d "
 "transactions automatically created)"
-msgstr_plural ""
+msgstr[0] ""
+"There are no Scheduled Transactions to be entered at this time. (One "
+"transaction automatically created)"
+msgstr[1] ""
 "There are no Scheduled Transactions to be entered at this time. (%d "
 "transactions automatically created)"
-msgstr
 
 #: gnucash/gnome/dialog-sx-since-last-run.c:998
 #: gnucash/gnome-search/dialog-search.c:1104
@@ -3666,10 +3673,12 @@ msgid ""
 msgid_plural ""
 "There are no Scheduled Transactions to be entered at this time. (%d "
 "transactions automatically created)"
-msgstr_plural ""
+msgstr[0] ""
+"There are no Scheduled Transactions to be entered at this time. (%d "
+"transaction automatically created)"
+msgstr[1] ""
 "There are no Scheduled Transactions to be entered at this time. (%d "
 "transactions automatically created)"
-msgstr
 
 #: gnucash/gnome/gnc-plugin-budget.c:63
 msgid "_New Budget"
@@ -6168,8 +6177,8 @@ msgstr "Upcoming Transactions"
 #| msgid "Do you really want to delete this scheduled transaction?"
 msgid "Do you really want to delete this scheduled transaction?"
 msgid_plural "Do you really want to delete %d scheduled transactions?"
-msgstr_plural "Do you really want to delete %d scheduled transactions?"
-msgstr
+msgstr[0] "Do you really want to delete this scheduled transaction?"
+msgstr[1] "Do you really want to delete %d scheduled transactions?"
 
 #: gnucash/gnome/gnc-plugin-register2.c:57
 #: gnucash/gnome/gnc-plugin-register.c:58
@@ -6907,16 +6916,16 @@ msgstr "Open the GnuCash help window"
 #, c-format
 msgid "Statement Date is %d day after today."
 msgid_plural "Statement Date is %d days after today."
-msgstr_plural "Statement Date is %d days after today."
-msgstr
+msgstr[0] "Statement Date is %d day after today."
+msgstr[1] "Statement Date is %d days after today."
 
 #. Translators: %d is the number of days in the future
 #: gnucash/gnome/window-reconcile.c:395
 #, c-format
 msgid "The statement date you have chosen is %d day in the future."
 msgid_plural "The statement date you have chosen is %d days in the future."
-msgstr_plural "The statement date you have chosen is %d days in the future."
-msgstr
+msgstr[0] "The statement date you have chosen is %d day in the future."
+msgstr[1] "The statement date you have chosen is %d days in the future."
 
 #: gnucash/gnome/window-reconcile.c:400
 msgid ""
@@ -8088,7 +8097,16 @@ msgid_plural ""
 ">Preferences->General->Auto-save time interval.\n"
 "\n"
 "Should your file be saved automatically?"
-msgstr_plural ""
+msgstr[0] ""
+"Your data file needs to be saved to your hard disk to save your changes. "
+"GnuCash has a feature to save the file automatically every %d minute, just "
+"as if you had pressed the \"Save\" button each time.\n"
+"\n"
+"You can change the time interval or turn off this feature under Edit-"
+">Preferences->General->Auto-save time interval.\n"
+"\n"
+"Should your file be saved automatically?"
+msgstr[1] ""
 "Your data file needs to be saved to your hard disk to save your changes. "
 "GnuCash has a feature to save the file automatically every %d minutes, just "
 "as if you had pressed the \"Save\" button each time.\n"
@@ -8097,7 +8115,6 @@ msgstr_plural ""
 ">Preferences->General->Auto-save time interval.\n"
 "\n"
 "Should your file be saved automatically?"
-msgstr
 
 #: gnucash/gnome-utils/gnc-autosave.c:123
 msgid "_Yes, this time"
@@ -8506,9 +8523,10 @@ msgstr "Save changes to the file?"
 msgid "If you don't save, changes from the past %d minute will be discarded."
 msgid_plural ""
 "If you don't save, changes from the past %d minutes will be discarded."
-msgstr_plural ""
+msgstr[0] "If you don't save, changes from the past %d minute will be discarded."
 "If you don't save, changes from the past %d minutes will be discarded."
-msgstr
+msgstr[1] ""
+"If you don't save, changes from the past %d minutes will be discarded."
 
 #: gnucash/gnome-utils/gnc-file.c:660
 msgid "Continue _Without Saving"
@@ -20315,10 +20333,12 @@ msgid ""
 msgid_plural ""
 "All %d jobs were executed successfully, but as a precaution please check the "
 "log window for potential errors."
-msgstr_plural ""
+msgstr[0] ""
+"The job was executed successfully, but as a precaution please check the log "
+"window for potential errors."
+msgstr[1] ""
 "All %d jobs were executed successfully, but as a precaution please check the "
 "log window for potential errors."
-msgstr
 
 #: gnucash/import-export/aqb/gnc-gwen-gui.c:1113
 #, c-format
@@ -21085,24 +21105,24 @@ msgstr "_Narrow this column"
 #, c-format
 msgid "%d added price"
 msgid_plural "%d added prices"
-msgstr_plural "%d added prices"
-msgstr
+msgstr[0] "%d added price"
+msgstr[1] "%d added prices"
 
 #. Translators: This is a ngettext(3) message, %d is the number of duplicate prices
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1887
 #, c-format
 msgid "%d duplicate price"
 msgid_plural "%d duplicate prices"
-msgstr_plural "%d duplicate prices"
-msgstr
+msgstr[0] "%d duplicate price"
+msgstr[1] "%d duplicate prices"
 
 #. Translators: This is a ngettext(3) message, %d is the number of replaced prices
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1892
 #, c-format
 msgid "%d replaced price"
 msgid_plural "%d replaced prices"
-msgstr_plural "%d replaced prices"
-msgstr
+msgstr[0] "%d replaced price"
+msgstr[1] "%d replaced prices"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1897
 #, c-format
@@ -23104,8 +23124,8 @@ msgstr "Can't save style sheet"
 #| msgid "Exchange rate"
 msgid "Exchange rate"
 msgid_plural "Exchange rates"
-msgstr_plural "Exchange rates"
-msgstr
+msgstr[0] "Exchange rate"
+msgstr[1] "Exchange rates"
 
 #: gnucash/report/html-utilities.scm:305
 msgid "No budgets exist. You must create at least one budget."
@@ -30091,8 +30111,8 @@ msgstr "In addition:"
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:697
 msgid "The following file has been copied to {1} instead:"
 msgid_plural "The following files have been copied to {1} instead:"
-msgstr_plural "The following files have been copied to {1} instead:"
-msgstr
+msgstr[0] "The following file has been copied to {1} instead:"
+msgstr[1] "The following files have been copied to {1} instead:"
 
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:701
 msgid "The following file in {1} has been renamed:"
@@ -30101,14 +30121,14 @@ msgstr "The following file in {1} has been renamed:"
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:711
 msgid "The following file has become obsolete and will be ignored:"
 msgid_plural "The following files have become obsolete and will be ignored:"
-msgstr_plural "The following files have become obsolete and will be ignored:"
-msgstr
+msgstr[0] "The following file has become obsolete and will be ignored:"
+msgstr[1] "The following files have become obsolete and will be ignored:"
 
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:721
 msgid "The following file could not be moved to {1}:"
 msgid_plural "The following files could not be moved to {1}:"
-msgstr_plural "The following files could not be moved to {1}:"
-msgstr
+msgstr[0] "The following file could not be moved to {1}:"
+msgstr[1] "The following files could not be moved to {1}:"
 
 #: libgnucash/engine/Account.cpp:245
 #, c-format
