@@ -8524,7 +8524,6 @@ msgid "If you don't save, changes from the past %d minute will be discarded."
 msgid_plural ""
 "If you don't save, changes from the past %d minutes will be discarded."
 msgstr[0] "If you don't save, changes from the past %d minute will be discarded."
-"If you don't save, changes from the past %d minutes will be discarded."
 msgstr[1] ""
 "If you don't save, changes from the past %d minutes will be discarded."
 
