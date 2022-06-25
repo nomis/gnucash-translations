@@ -20726,7 +20726,7 @@ msgstr "Accu-splits"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:194
 msgid "Import Bills or Invoices from csv"
-msgstr "Import Bills or Invoices from csv"
+msgstr "Import Bills or Invoices from CSV"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:222
 #, c-format
@@ -21562,7 +21562,7 @@ msgstr "Shipping Email"
 
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:172
 msgid "Import Customers from csv"
-msgstr "Import Customers from csv"
+msgstr "Import Customers from CSV"
 
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:188
 msgid "customers"
