@@ -2999,7 +2999,7 @@ msgstr "There is a duplicate cheque format file."
 #: gnucash/gnome/dialog-print-check.c:1522
 #, c-format
 msgid ""
-"The GUIDs in the %s cheque format file '%s' and the %s cheque format file '%s' "
+"The GUIDs in the %s check format file '%s' and the %s check format file '%s' "
 "match."
 msgstr ""
 "The GUIDs in the %s cheque format file '%s' and the %s cheque format file '%s' "
@@ -10674,15 +10674,15 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.GnuCash.dialogs.checkprinting.gschema.xml.in:5
 msgid "GUID of predefined check format to use"
-msgstr "GUID of predefined check format to use"
+msgstr "GUID of predefined cheque format to use"
 
 #: gnucash/gschemas/org.gnucash.GnuCash.dialogs.checkprinting.gschema.xml.in:6
 msgid ""
 "This value specifies the predefined check format to use. The number is the "
 "guid of a known check format."
 msgstr ""
-"This value specifies the predefined check format to use. The number is the "
-"GUID of a known check format."
+"This value specifies the predefined cheque format to use. The number is the "
+"GUID of a known cheque format."
 
 #: gnucash/gschemas/org.gnucash.GnuCash.dialogs.checkprinting.gschema.xml.in:10
 msgid "Which check position to print"
@@ -17752,7 +17752,7 @@ msgstr "Get new online quotes for stock accounts."
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:129
 msgid "Save Custom Check Format"
-msgstr "Save Custom Check Format"
+msgstr "Save Custom Cheque Format"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:192
 msgid ""
